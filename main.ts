@@ -9,6 +9,7 @@ input.onGesture(Gesture.Shake, function () {
             # . . . #
             # # # # #
             `)
+        soundExpression.giggle.play()
     }
     if (hand == 2) {
         basic.showLeds(`
@@ -18,6 +19,7 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             . . . . .
             `)
+        soundExpression.giggle.play()
     }
     if (hand == 3) {
         basic.showLeds(`
@@ -27,6 +29,7 @@ input.onGesture(Gesture.Shake, function () {
             # # . # .
             # # . . #
             `)
+        soundExpression.giggle.play()
     }
 })
 basic.forever(function () {
